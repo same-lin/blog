@@ -10,7 +10,7 @@ export const Recently = () => {
           <h4>近期文章</h4>
         </div>
         <ul className="qzhai-widget-posts-box">
-          {all.map((item) => {
+          {all.map((item: any) => {
             return (
               <li className="text" key={item.id}>
                 <Link href={`/details/${item.id}`} data-can-open={1}>
