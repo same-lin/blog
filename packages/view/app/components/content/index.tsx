@@ -34,7 +34,7 @@ export const Content: FC<Props> = ({
         <div className="uk-card-body">
           {!currentData.length && <p>数据为空</p>}
           <ul className="qzhai-list-loop">
-            {currentData.map((item) => {
+            {currentData.map((item: any) => {
               return (
                 <Item s={s} key={item.id} {...item} jumpPath={jumpPath}></Item>
               );
