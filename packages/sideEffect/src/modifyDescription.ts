@@ -1,33 +1,31 @@
-import data, { getLabel, classification } from "./index";
-import dayjs from "dayjs";
-import fs from "fs-extra";
-import path from "path";
+import data, { getLabel, classification } from './index'
+import dayjs from 'dayjs'
+import fs from 'fs-extra'
+import path from 'path'
 
 const Content = () => {
-  const arr: string[] = [];
+  const arr: string[] = []
   classification.forEach((value, key) => {
-    const title = getLabel(key);
+    const title = getLabel(key)
     if (!title) {
-      return;
+      return
     }
 
     arr.push(
       `
 ## ${title.name}
 
-${value
-  .map((item, index) => `${index + 1}. [${item.title}](${item.html_url})`)
-  .join("\n")}
+${value.map((item, index) => `${index + 1}. [${item.title}](${item.html_url})`).join('\n')}
 `.trim()
-    );
-  });
+    )
+  })
 
-  return arr.join("\n\n");
-};
+  return arr.join('\n\n')
+}
 
 const Description = () => {
   return `
-# ${data.user.GITHUB_REPOSITORY.split("/").at(-1)}
+# ${data.user.GITHUB_REPOSITORY.split('/').at(-1)}
 
 除了在 GitHub 书写文章，我还在 [掘金](https://juejin.im/user/5c403d13f265da6130751f8d/posts) 开通了账号。
 
@@ -37,16 +35,16 @@ const Description = () => {
 
 > 为了阅读体验更好，可以点击进入[个人网站](https://bosens-china.github.io/blog/page/1)阅读 最后更新时间：${dayjs(
     data.user.updated_at
-  ).format("YYYY-MM-DD")}
+  ).format('YYYY-MM-DD')}
 
 ${Content()}
 
 ### 协议
 
 文章内容协议为 [知识共享 4.0] 代码协议为 [MIT License](/LICENSE)
-`.trim();
-};
+`.trim()
+}
 
-const p = path.resolve(__dirname, "../../../README.md");
+const p = path.resolve(__dirname, '../../../README.md')
 
-fs.outputFileSync(p, Description());
+// fs.outputFileSync(p, Description());
