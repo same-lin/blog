@@ -1,0 +1,131 @@
+{
+  "label": [
+    {
+      "id": 6309796078,
+      "node_id": "LA_kwDOK4FzfM8AAAABeBfY7g",
+      "url": "https://api.github.com/repos/same-lin/blog/labels/bug",
+      "name": "bug",
+      "color": "d73a4a",
+      "default": true,
+      "description": "Something isn't working"
+    },
+    {
+      "id": 6309796081,
+      "node_id": "LA_kwDOK4FzfM8AAAABeBfY8Q",
+      "url": "https://api.github.com/repos/same-lin/blog/labels/documentation",
+      "name": "documentation",
+      "color": "0075ca",
+      "default": true,
+      "description": "Improvements or additions to documentation"
+    },
+    {
+      "id": 6309796084,
+      "node_id": "LA_kwDOK4FzfM8AAAABeBfY9A",
+      "url": "https://api.github.com/repos/same-lin/blog/labels/duplicate",
+      "name": "duplicate",
+      "color": "cfd3d7",
+      "default": true,
+      "description": "This issue or pull request already exists"
+    },
+    {
+      "id": 6309796087,
+      "node_id": "LA_kwDOK4FzfM8AAAABeBfY9w",
+      "url": "https://api.github.com/repos/same-lin/blog/labels/enhancement",
+      "name": "enhancement",
+      "color": "a2eeef",
+      "default": true,
+      "description": "New feature or request"
+    },
+    {
+      "id": 6309796092,
+      "node_id": "LA_kwDOK4FzfM8AAAABeBfY_A",
+      "url": "https://api.github.com/repos/same-lin/blog/labels/good%20first%20issue",
+      "name": "good first issue",
+      "color": "7057ff",
+      "default": true,
+      "description": "Good for newcomers"
+    },
+    {
+      "id": 6309796090,
+      "node_id": "LA_kwDOK4FzfM8AAAABeBfY-g",
+      "url": "https://api.github.com/repos/same-lin/blog/labels/help%20wanted",
+      "name": "help wanted",
+      "color": "008672",
+      "default": true,
+      "description": "Extra attention is needed"
+    },
+    {
+      "id": 6309796096,
+      "node_id": "LA_kwDOK4FzfM8AAAABeBfZAA",
+      "url": "https://api.github.com/repos/same-lin/blog/labels/invalid",
+      "name": "invalid",
+      "color": "e4e669",
+      "default": true,
+      "description": "This doesn't seem right"
+    },
+    {
+      "id": 6309796100,
+      "node_id": "LA_kwDOK4FzfM8AAAABeBfZBA",
+      "url": "https://api.github.com/repos/same-lin/blog/labels/question",
+      "name": "question",
+      "color": "d876e3",
+      "default": true,
+      "description": "Further information is requested"
+    },
+    {
+      "id": 6309796104,
+      "node_id": "LA_kwDOK4FzfM8AAAABeBfZCA",
+      "url": "https://api.github.com/repos/same-lin/blog/labels/wontfix",
+      "name": "wontfix",
+      "color": "ffffff",
+      "default": true,
+      "description": "This will not be worked on"
+    },
+    {
+      "id": 1000000000,
+      "node_id": "MDU6TGFiZWwxMzcxNjg2NjEx",
+      "url": "https://api.github.com/repos/same-lin/blog/labels/其他",
+      "name": "其他",
+      "color": "f6ecbf",
+      "default": false,
+      "description": "未找到分类，暂定的文章分类"
+    }
+  ],
+  "issuesData": [],
+  "labelsMap": [],
+  "user": {
+    "login": "same-lin",
+    "id": 100209442,
+    "node_id": "U_kgDOBfkTIg",
+    "avatar_url": "https://avatars.githubusercontent.com/u/100209442?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/same-lin",
+    "html_url": "https://github.com/same-lin",
+    "followers_url": "https://api.github.com/users/same-lin/followers",
+    "following_url": "https://api.github.com/users/same-lin/following{/other_user}",
+    "gists_url": "https://api.github.com/users/same-lin/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/same-lin/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/same-lin/subscriptions",
+    "organizations_url": "https://api.github.com/users/same-lin/orgs",
+    "repos_url": "https://api.github.com/users/same-lin/repos",
+    "events_url": "https://api.github.com/users/same-lin/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/same-lin/received_events",
+    "type": "User",
+    "site_admin": false,
+    "name": "samelin",
+    "company": null,
+    "blog": "",
+    "location": null,
+    "email": null,
+    "hireable": null,
+    "bio": null,
+    "twitter_username": null,
+    "public_repos": 5,
+    "public_gists": 0,
+    "followers": 0,
+    "following": 1,
+    "created_at": "2022-02-22T13:00:54Z",
+    "updated_at": "2023-12-10T12:34:46Z",
+    "GITHUB_REPOSITORY": "same-lin/blog"
+  }
+}
